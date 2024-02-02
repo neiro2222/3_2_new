@@ -1,0 +1,15 @@
+/workspaces/3_2_new/bin/Debug/net7.0/3_2_new
+/workspaces/3_2_new/bin/Debug/net7.0/3_2_new.deps.json
+/workspaces/3_2_new/bin/Debug/net7.0/3_2_new.runtimeconfig.json
+/workspaces/3_2_new/bin/Debug/net7.0/3_2_new.dll
+/workspaces/3_2_new/bin/Debug/net7.0/3_2_new.pdb
+/workspaces/3_2_new/obj/Debug/net7.0/3_2_new.csproj.AssemblyReference.cache
+/workspaces/3_2_new/obj/Debug/net7.0/3_2_new.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/3_2_new/obj/Debug/net7.0/3_2_new.AssemblyInfoInputs.cache
+/workspaces/3_2_new/obj/Debug/net7.0/3_2_new.AssemblyInfo.cs
+/workspaces/3_2_new/obj/Debug/net7.0/3_2_new.csproj.CoreCompileInputs.cache
+/workspaces/3_2_new/obj/Debug/net7.0/3_2_new.dll
+/workspaces/3_2_new/obj/Debug/net7.0/refint/3_2_new.dll
+/workspaces/3_2_new/obj/Debug/net7.0/3_2_new.pdb
+/workspaces/3_2_new/obj/Debug/net7.0/3_2_new.genruntimeconfig.cache
+/workspaces/3_2_new/obj/Debug/net7.0/ref/3_2_new.dll
