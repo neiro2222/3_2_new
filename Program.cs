@@ -5,7 +5,7 @@ class HelloWorld {
     
     Base_array[] base_Array  = new Base_array[3];
     
-    Print_init();
+    Console.WriteLine("Введите false, если хотите случайный ввод, иначе введите true");
 
 
     bool flag = bool.Parse(Console.ReadLine());
@@ -25,10 +25,6 @@ class HelloWorld {
     base_Array[0].Change(flag);
     base_Array[0].Print();
     
-  }
-
-  private static void Print_init() {
-    Console.WriteLine("Введите false, если хотите случайный ввод, иначе введите true");
   }
 
 }
