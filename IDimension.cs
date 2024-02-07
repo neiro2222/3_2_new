@@ -12,8 +12,8 @@ interface IStep_Dimension {
 }
 
 interface IArray {
-    public abstract void Key_init();
-    public abstract void Random_init();
+    public void Key_init();
+    public void Random_init();
     public abstract void Print();
     public abstract void Change(bool flag);
     public abstract void create_array(bool flag);
