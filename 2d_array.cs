@@ -1,5 +1,5 @@
 using System;
-sealed class D2_arrays : Base_array {
+sealed class D2_arrays : Base_array, ISecond_Dimension {
     private int[,] array;
     public D2_arrays(bool flag) {
         Create_array(flag);

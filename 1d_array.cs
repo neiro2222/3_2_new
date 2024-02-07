@@ -1,5 +1,5 @@
 using System;
-sealed class D1_arrays : Base_array {
+sealed class D1_arrays : Base_array, IOne_Dimension{
     private int[] a;
     
     public D1_arrays(bool flag) {

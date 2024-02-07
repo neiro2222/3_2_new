@@ -1,5 +1,5 @@
 using System;
-sealed class Step_arrays : Base_array {
+sealed class Step_arrays : Base_array, IStep_Dimension {
     private int[][] array;
     
     public Step_arrays(bool flag) {
