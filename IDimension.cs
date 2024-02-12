@@ -11,10 +11,9 @@ interface IStep_Dimension {
     void Change_even_el();
 }
 
-interface IArray {
+interface IArray : IPrinter{
     void Key_init();
     void Random_init();
-    void Print();
     void Change(bool flag);
     void create_array(bool flag);
     void Average();

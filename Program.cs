@@ -3,7 +3,7 @@ class HelloWorld {
 
   static void Main() {
     
-    Base_array[] base_Array  = new Base_array[3];
+    IArray[] base_Array  = new IArray[3];
     
     Console.WriteLine("Введите false, если хотите случайный ввод, иначе введите true");
 
@@ -24,6 +24,21 @@ class HelloWorld {
     
     base_Array[0].Change(flag);
     base_Array[0].Print();
+
+    IPrinter[] printer = new IPrinter[4];
+
+    Console.WriteLine("Одномерные массивы ");
+    printer[0] = new D1_arrays(flag);     
+    Console.WriteLine("Двумерные массивы ");   
+    printer[1] = new D2_arrays(flag);
+    Console.WriteLine("Ступенчатые массивы ");
+    printer[2] = new Step_arrays(flag);
+    Console.WriteLine("Дата ");
+    printer[3] = new data();
+
+    for (int i = 0; i < printer.Length; i++) {
+      base_Array[i].Print();
+    }
     
   }
 
