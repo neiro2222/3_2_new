@@ -12,11 +12,11 @@ interface IStep_Dimension {
 }
 
 interface IArray {
-    public void Key_init();
-    public void Random_init();
-    public abstract void Print();
-    public abstract void Change(bool flag);
-    public abstract void create_array(bool flag);
-    public abstract void Average();
+    void Key_init();
+    void Random_init();
+    void Print();
+    void Change(bool flag);
+    void create_array(bool flag);
+    void Average();
 }
 

@@ -3,11 +3,16 @@ using System;
 abstract class Base_array : IArray
 {   
     public void Key_init() { 
-        protected abstract void _Key_init();
+        _Key_init();
     }
     public void Random_init() {
-        protected abstract void _Random_init();
+        _Random_init();
     }
+    public void create_array(bool flag) {
+        Create_array(flag);
+    }
+    protected abstract void _Key_init();
+    protected abstract void _Random_init();
     public abstract void Print();
     public abstract void Change(bool flag);
     protected abstract void Create_array(bool flag);
