@@ -12,10 +12,8 @@ interface IStep_Dimension {
 }
 
 interface IArray : IPrinter{
-    void Key_init();
-    void Random_init();
     void Change(bool flag);
-    void create_array(bool flag);
+    void Create_array(bool flag);
     void Average();
 }
 

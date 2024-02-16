@@ -10,12 +10,10 @@ class HelloWorld {
 
     bool flag = bool.Parse(Console.ReadLine());
     
-    Console.WriteLine("Одномерные массивы ");
     base_Array[0] = new D1_arrays(flag);     
-    Console.WriteLine("Двумерные массивы ");   
     base_Array[1] = new D2_arrays(flag);
-    Console.WriteLine("Ступенчатые массивы ");
     base_Array[2]= new Step_arrays(flag);
+  
 
     for (int i = 0; i < base_Array.Length; i++) {
       base_Array[i].Print();
@@ -27,17 +25,13 @@ class HelloWorld {
 
     IPrinter[] printer = new IPrinter[4];
 
-    Console.WriteLine("Одномерные массивы ");
-    printer[0] = new D1_arrays(flag);     
-    Console.WriteLine("Двумерные массивы ");   
-    printer[1] = new D2_arrays(flag);
-    Console.WriteLine("Ступенчатые массивы ");
-    printer[2] = new Step_arrays(flag);
-    Console.WriteLine("Дата ");
+    printer[0] = base_Array[0];     
+    printer[1] = base_Array[1];
+    printer[2] = base_Array[2];
     printer[3] = new data();
 
     for (int i = 0; i < printer.Length; i++) {
-      base_Array[i].Print();
+      printer[i].Print();
     }
     
   }

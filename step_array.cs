@@ -6,7 +6,7 @@ sealed class Step_arrays : Base_array, IStep_Dimension {
         Create_array(flag);
     }
     
-    protected override void Create_array(bool flag) {
+    public override void Create_array(bool flag) {
         Console.WriteLine("Введите количество строчек ступенчатого массива : ");
         int n = int.Parse(Console.ReadLine());
         array = new int[n][];
